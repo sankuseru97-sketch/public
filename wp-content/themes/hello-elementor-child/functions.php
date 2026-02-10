@@ -21,4 +21,21 @@ if ( !function_exists( 'child_theme_configurator_css' ) ):
 endif;
 add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 
-// END ENQUEUE PARENT ACTION
+/**
+ * Ajoute un lien "Tableau de bord" à la fin du menu de navigation
+ * pour les utilisateurs connectés.
+ */
+add_filter('wp_nav_menu_items', 'ajouter_lien_admin_menu', 10, 2);
+
+function ajouter_lien_admin_menu($items, $args) {
+    // On vérifie si l'utilisateur est connecté
+    if (is_user_logged_in()) {
+        // On crée le lien vers l'administration
+        $admin_link = '<li class="menu-item admin-link"><a href="' . admin_url() . '">Admin</a></li>';
+        
+        // On concatène le nouveau lien aux éléments existants
+        $items .= $admin_link;
+    }
+    
+    return $items;
+}// END ENQUEUE PARENT ACTION

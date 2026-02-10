@@ -11,3 +11,116 @@ Updated: 2026-01-06 14:42:42
 
 */
 
+/* Menu styles */
+
+/* Admin item */
+#menu-1-8fa1230 {
+    display: flex;
+    align-items: center;
+}
+
+.admin-link a {
+    color: black !important;
+    font-family: "Syne", Sans-serif !important;
+}
+
+.admin-link a:hover {
+    font-weight: 700;
+}
+
+/* Nous rencontrer item */
+.menu-item-303 a:hover {
+    font-weight: 700 !important;
+}
+
+/* Commander item */
+.menu-item-552 {
+    background: #dc9f96;
+    order: 50;
+    margin: 0 0 0 25px !important;
+}
+
+.menu-item-552:hover {
+    background: #c02e44;
+}
+
+.menu-item-552 a {
+    padding: 20px 50px !important;
+    color: white !important;
+    font-weight: 700 !important;
+}
+
+/* Shop form */
+
+.shop-form-container {
+    background-color: #3b8e46;
+    color: white;
+    font-family: "Syne", Sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shop-form-container h2 {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.info-delivery-grid {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.info-delivery-grid label {
+    margin-top: 25px;
+}
+
+.info-delivery-grid input[type="text"],
+.info-delivery-grid input[type="email"] {
+    width: 100% !important;
+    min-width: 383px;
+    min-height: 71px;
+    padding: 0;
+    border-radius: 7px !important;
+    border: none;
+}
+
+.vertical-line {
+    border-left: 1px solid white;
+    height: auto;
+}
+
+.shop-form-container input[type="submit"] {
+    background-color: #e0b9b4;
+    color: white;
+    border: none;
+    border-radius: 5px !important;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    /* Commander item */
+    .menu-item-552 {
+        margin: 0  !important;
+    }
+    /* Contact form */
+
+    .elementor-297 .elementor-element.elementor-element-21aa5ea .wpcf7-text {
+        width: 340px !important;
+    }
+    .elementor-297 .elementor-element.elementor-element-21aa5ea .wpcf7-textarea {
+        width: 340px !important;
+    }
+    .elementor-297 .elementor-element.elementor-element-21aa5ea .wpcf7-email {
+        width: 340px !important;
+    }
+
+    .info-delivery-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
