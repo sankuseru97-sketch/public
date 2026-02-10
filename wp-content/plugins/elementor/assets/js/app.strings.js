@@ -66,9 +66,9 @@ __( 'Continue to new Kit', 'elementor' );
 __( 'Close', 'elementor' );
 __( '%s was successfully deleted', 'elementor' );
 __( 'Your Kit', 'elementor' );
-__( 'Add New', 'elementor' );
 __( 'Close', 'elementor' );
 __( 'Tip', 'elementor' );
+__( 'Add New', 'elementor' );
 __( 'Close', 'elementor' );
 __( 'Theme Builder', 'elementor' );
 __( 'Upgrade', 'elementor' );
@@ -96,6 +96,14 @@ __( 'Popup Builder', 'elementor' );
 __( 'Custom Code & CSS', 'elementor' );
 __( 'Motion Effects & Animations', 'elementor' );
 __( 'Notes & Collaboration', 'elementor' );
+__( 'Theme Builder', 'elementor' );
+__( 'AI for code, images, & layouts', 'elementor' );
+__( 'Lead Collection', 'elementor' );
+__( 'Image optimization', 'elementor' );
+__( 'Custom Code & CSS', 'elementor' );
+__( 'Accessibility scans and fixes', 'elementor' );
+__( 'Email deliverability', 'elementor' );
+__( 'WooCommerce Builder', 'elementor' );
 __( 'Upload and Install Elementor Pro', 'elementor' );
 __( 'Uploading', 'elementor' );
 __( 'Import your Elementor Pro plugin file', 'elementor' );
@@ -135,12 +143,11 @@ __( 'You can switch your theme anytime', 'elementor' );
 __( 'You can switch your theme later on', 'elementor' );
 __( 'Continue with blank canvas', 'elementor' );
 __( 'Skip', 'elementor' );
+__( 'One', 'elementor' );
 __( 'Advanced', 'elementor' );
 __( 'Essential', 'elementor' );
 __( 'Upgrade Now', 'elementor' );
 __( 'Skip', 'elementor' );
-__( 'Elevate your website with additional Pro features.', 'elementor' );
-__( 'Which Elementor Pro features do you need to bring your creative vision to life?', 'elementor' );
 __( 'Skip setup', 'elementor' );
 __( 'To get the most out of Elementor, we\'ll help you take your', 'elementor' );
 __( 'first steps:', 'elementor' );
@@ -429,6 +436,9 @@ __( 'about using templates', 'elementor' );
 __( 'No favorites here yet...', 'elementor' );
 __( 'Use the heart icon to save Website Templates that inspire you. You\'ll be able to find them here.', 'elementor' );
 __( 'Continue browsing.', 'elementor' );
+__( 'Access Website Templates with a plan upgrade', 'elementor' );
+__( 'Your current plan doesn\'t include saving and importing Website Templates. Upgrade to the Advanced plan or higher to use this feature.', 'elementor' );
+__( 'Compare plans', 'elementor' );
 __( 'It\'s time to level up', 'elementor' );
 __( 'Upgrade to Elementor Pro to import your own website template and save templates that you can reuse on any of your connected websites.', 'elementor' );
 __( 'Upgrade now', 'elementor' );
@@ -491,8 +501,8 @@ __( 'Show less', 'elementor' );
 __( 'Show more', 'elementor' );
 __( 'What\'s included:', 'elementor' );
 __( 'Import', 'elementor' );
-__( 'Settings up your website templates...', 'elementor' );
-__( 'This usually take a few moments.', 'elementor' );
+__( 'Setting up your website template...', 'elementor' );
+__( 'This usually takes a few moments.', 'elementor' );
 __( 'Don\'t close this window until the process is finished.', 'elementor' );
 __( 'Import', 'elementor' );
 __( 'Import a website template', 'elementor' );
@@ -535,6 +545,24 @@ __( 'Learn More', 'elementor' );
 __( 'Upload a .zip file', 'elementor' );
 __( 'Click to upload', 'elementor' );
 __( 'or drag and drop', 'elementor' );
+__( 'Must add a website template name', 'elementor' );
+__( 'Use characters only', 'elementor' );
+__( 'Description exceeds 300 characters', 'elementor' );
+__( 'Website template name', 'elementor' );
+__( 'Type name here...', 'elementor' );
+__( 'Description (Optional)', 'elementor' );
+__( 'Type description here...', 'elementor' );
+__( 'characters', 'elementor' );
+__( 'This usually takes a few moments.', 'elementor' );
+__( 'Don\'t close this window until the process is finished.', 'elementor' );
+__( 'Save to library', 'elementor' );
+__( 'Save to library', 'elementor' );
+__( 'Save to library', 'elementor' );
+__( 'Save to library', 'elementor' );
+__( 'Export as .zip', 'elementor' );
+__( 'Export a Website template?', 'elementor' );
+__( 'Choose which Elementor components - templates, content and site settings - to include in your website templates file. By default, all of your components will be exported.', 'elementor' );
+__( 'Learn more', 'elementor' );
 __( 'Setting up your website template...', 'elementor' );
 __( 'Processing media files...', 'elementor' );
 __( 'Export failed', 'elementor' );
@@ -562,24 +590,6 @@ __( 'Once the download is complete, you can upload it to be used for other sites
 __( 'Take me there', 'elementor' );
 __( 'Is the automatic download not starting?', 'elementor' );
 __( 'Download manually', 'elementor' );
-__( 'Must add a website template name', 'elementor' );
-__( 'Use characters only', 'elementor' );
-__( 'Description exceeds 300 characters', 'elementor' );
-__( 'Website template name', 'elementor' );
-__( 'Type name here...', 'elementor' );
-__( 'Description (Optional)', 'elementor' );
-__( 'Type description here...', 'elementor' );
-__( 'characters', 'elementor' );
-__( 'This usually takes a few moments.', 'elementor' );
-__( 'Don\'t close this window until the process is finished.', 'elementor' );
-__( 'Save to library', 'elementor' );
-__( 'Save to library', 'elementor' );
-__( 'Save to library', 'elementor' );
-__( 'Save to library', 'elementor' );
-__( 'Export as .zip', 'elementor' );
-__( 'Export a Website template?', 'elementor' );
-__( 'Choose which Elementor components - templates, content and site settings - to include in your website templates file. By default, all of your components will be exported.', 'elementor' );
-__( 'Learn more', 'elementor' );
 __( 'Unable to download the Website Template', 'elementor' );
 __( 'We couldn’t download the Website Template due to technical difficulties on our part. Try again and if the problem persists contact ', 'elementor' );
 __( 'Support', 'elementor' );
@@ -719,6 +729,19 @@ __( 'Upgrade now', 'elementor' );
 __( 'Cancel', 'elementor' );
 __( 'Export as .zip', 'elementor' );
 __( 'Try Again', 'elementor' );
+__( 'Version' ) } ${ cellLinkProps.text }` } <Icon className="eicon-editor-external-link" />
+		</InlineLink>
+	);
+
+	const getHeaders = () => {
+		if ( ! withHeader ) {
+			return [];
+		}
+
+		const headers = [ 'Plugin Name', 'Version' ];
+
+		if ( withStatus ) {
+			headers.splice( 1, 0, 'Status' );
 __( 'Previous', 'elementor' );
 __( 'Next', 'elementor' );
 __( 'Learn More', 'elementor' );
@@ -744,12 +767,9 @@ __( 'Heads up!', 'elementor' );
 __( 'Before applying a new template, we recommend backing up your site so you can roll back any undesired changes.', 'elementor' );
 __( 'Choose a file to import', 'elementor' );
 __( 'Drag & drop the .zip file with your website template', 'elementor' );
-__( 'Import from files' ) }
-						/>
-
-						{ dialog.isOpen &&
-							<Dialog
-								title={ __( 'Warning: JSON or ZIP files may be unsafe', 'elementor' );
+__( 'Or', 'elementor' );
+__( 'Import from files', 'elementor' );
+__( 'Warning: JSON or ZIP files may be unsafe', 'elementor' );
 __( 'Uploading JSON or ZIP files from unknown sources can be harmful and put your site at risk. For maximum safety, upload only JSON or ZIP files from trusted sources.', 'elementor' );
 __( 'Continue', 'elementor' );
 __( 'Cancel', 'elementor' );
@@ -780,19 +800,6 @@ __( 'You can find it in the My Website Templates tab.', 'elementor' );
 __( 'Once the download is complete, you can upload it to be used for other sites.', 'elementor' );
 __( 'Build sites faster with Website Templates.', 'elementor' );
 __( 'Is the automatic download not starting?', 'elementor' );
-__( 'Version' ) } ${ cellLinkProps.text }` } <Icon className="eicon-editor-external-link" />
-		</InlineLink>
-	);
-
-	const getHeaders = () => {
-		if ( ! withHeader ) {
-			return [];
-		}
-
-		const headers = [ 'Plugin Name', 'Version' ];
-
-		if ( withStatus ) {
-			headers.splice( 1, 0, 'Status' );
 __( 'Edit Template', 'elementor' );
 __( 'Imported', 'elementor' );
 __( 'Existing', 'elementor' );
@@ -807,8 +814,6 @@ __( 'Missing Required Plugins:', 'elementor' );
 __( 'Previous', 'elementor' );
 __( 'Next', 'elementor' );
 __( 'Plugins you already have:', 'elementor' );
-__( 'Previous', 'elementor' );
-__( 'Import', 'elementor' );
 __( 'Note:', 'elementor' );
 __( 'The Website Kit you’re using contains plugins for functionality, but no content or pages, etc.', 'elementor' );
 __( 'You can’t use this Website Kit because it doesn’t contain any content, pages, etc. Try again with a different file.', 'elementor' );
@@ -816,6 +821,8 @@ __( 'Go Back', 'elementor' );
 __( 'Required plugins are still missing.', 'elementor' );
 __( "If you don't include them, this kit may not work properly.", 'elementor' );
 __( 'Go Back', 'elementor' );
+__( 'Previous', 'elementor' );
+__( 'Import', 'elementor' );
 __( 'See It Live', 'elementor' );
 __( 'Got It', 'elementor' );
 __( 'Learn more', 'elementor' );
