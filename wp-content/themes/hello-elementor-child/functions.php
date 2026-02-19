@@ -25,9 +25,9 @@ add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
  * Ajoute un lien "Tableau de bord" à la fin du menu de navigation
  * pour les utilisateurs connectés.
  */
-add_filter('wp_nav_menu_items', 'ajouter_lien_admin_menu', 10, 2);
+add_filter('wp_nav_menu_items', 'ajouter_lien_admin_menu', 10);
 
-function ajouter_lien_admin_menu($items, $args) {
+function ajouter_lien_admin_menu($items) {
     // On vérifie si l'utilisateur est connecté
     if (is_user_logged_in()) {
         // On crée le lien vers l'administration
@@ -39,3 +39,4 @@ function ajouter_lien_admin_menu($items, $args) {
     
     return $items;
 }// END ENQUEUE PARENT ACTION
+?>
